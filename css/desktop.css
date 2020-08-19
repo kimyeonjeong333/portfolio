@@ -4,19 +4,25 @@ li#cloth{
 }
 
 li#cloth > ul{
+    font-size: 15px;
     position:relative;
     left:-160px;
+    background-color:aqua;
+    border-radius:10px;
     transition-duration: 0.5s;
+
 }
 
 
 li#cloth:hover > ul{
+    font-size: 30px;
+    background-color:aquamarine;
     position:relative;
     left:0px;
 }
 
 a:hover{
-    font-size:18px;
+    font-size:50px;
 }
 
 a{
