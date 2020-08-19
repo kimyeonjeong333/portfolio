@@ -1,41 +1,34 @@
 
-li#fruit > ul{
-    color:red;
+li#cloth{
+    position:fixed;
 }
 
 li#cloth > ul{
-    color:aqua;
+    position:relative;
+    left:-160px;
+    transition-duration: 0.5s;
 }
 
-li#bread > ul{
-    color:purple;
+
+li#cloth:hover > ul{
+    position:relative;
+    left:0px;
 }
 
-li{
-    float:left;
+a:hover{
+    font-size:18px;
 }
 
-li#fruit > ul > li{
-    float:left;
-    display:block;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom:5px;
+a{
+    color:black;
+    text-decoration-line: none;
 }
-li#cloth > ul > li{
-    float:left;
-    display:block;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom:5px;
+
+a:visited{
+    color:black;
+    text-decoration-line: none;
 }
-li#bread > ul > li{
-    float:left;
-    display:block;
-    padding-left:10px;
-    padding-right:10px;
-    padding-top:5px;
-    padding-bottom:5px;
+
+body{
+    height:2000px;
 }
