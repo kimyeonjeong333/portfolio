@@ -1,0 +1,12 @@
+
+li#fruit > ul{
+    color:green;
+}
+
+li#cloth > ul{
+    color:pink;
+}
+
+li#bread > ul{
+    color:blue;
+}

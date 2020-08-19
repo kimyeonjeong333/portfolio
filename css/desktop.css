@@ -1,0 +1,41 @@
+
+li#fruit > ul{
+    color:red;
+}
+
+li#cloth > ul{
+    color:aqua;
+}
+
+li#bread > ul{
+    color:purple;
+}
+
+li{
+    float:left;
+}
+
+li#fruit > ul > li{
+    float:left;
+    display:block;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+li#cloth > ul > li{
+    float:left;
+    display:block;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+li#bread > ul > li{
+    float:left;
+    display:block;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
